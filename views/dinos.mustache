@@ -1,0 +1,19 @@
+{{>header}}
+{{>menu}}
+
+<h2>Dinosaur Directory</h2>
+<div class="container">
+
+{{#dinos}}
+<div id='dinoListDiv'>
+<h3>{{name}}</h3>
+<img src="/{{imageurl}}" />
+<a href="/dino-detail/{{id}}"><button class="btn btn-secondary btn-sm">Details </button></a>
+<form action="/users/favorites" method="POST">
+<input type="hidden" name="dinoId" value="{{id}}" />
+<a href="/users/favorites"><button class="btn btn-secondary btn-sm">Favorite </button></a>
+</form>
+</div>
+{{/dinos}}
+</div>
+{{>footer}}

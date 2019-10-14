@@ -1,0 +1,48 @@
+nav {
+    background-color: #323232;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    color:#5cb85c;
+}
+#guestName {
+    padding: 10px;
+}
+
+span {
+    color: white;
+    font-size: 2em;
+}
+#mysubhead {
+    color: white;
+    opacity: 0.2;
+}
+
+#hero {
+    background-image: url(hero.jpg);
+    display: flex;
+    height: 90vh;
+    margin: 20px;
+    justify-content: center;
+}
+
+.container {
+    margin: 10px 100px;
+}
+
+#dinoListDiv {
+    margin: 10px;
+
+}
+
+.details {
+    margin: auto;
+}
+
+h3 {
+    color: #badc58;
+}
